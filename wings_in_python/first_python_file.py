@@ -1,5 +1,6 @@
-import requests
 
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = num1 + num2
 
-r = requests.get("https://google.com")
-print(r.status_code)
+print(result)
