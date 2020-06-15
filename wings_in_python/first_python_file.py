@@ -1,6 +1,4 @@
-i = 1
-while i <= 10:
-    print(i)
-    i += 1
-
-print("Done with loop")
+wings_file = open("index.html", "r")
+for line in wings_file.readlines():
+    print(line)
+wings_file.close()
