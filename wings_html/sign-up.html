@@ -2,16 +2,18 @@
 <html>
 
 <head>
-    <title>Wings - Sign Up</title>
+    <title>Sign Up - Wings</title>
     <meta charset="UTF-8">
     <meta name="description" content="Get more done than ever before!">
     <meta name="author" content="Wings">
     <meta name="keywords" content="productivity">
+    <link rel="stylesheet" href="wings_style.css">
 </head>
 
-<body style="background-color: lightgray; font-family: geneva;">
-    <div style="background-color: darkslategray;">
-        <br>
+<body style="background-color: white; font-family: geneva;">
+
+    <div class="container-1"></div>
+    <div class="flex-box-container-1" style="background-color: darkslategray;">
         <table style="width:100%">
             <tr>
                 <th><a href="index.html" style="color: lightgray;">Wings</a></th>
@@ -21,22 +23,12 @@
                 <th><a href="sign-up.html" style="color: lightgray;">Sign Up</a></th>
             </tr>
         </table>
-        <br>
     </div>
 
-    <div>
-        <br>
-        <form action="/action_page.php">
-            <label for="fname">First name:</label>
-            <input type="text" id="fname" name="fname"><br><br>
-            <label for="lname">Last name:</label>
-            <input type="text" id="lname" name="lname"><br><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
 
     <div>
         <form action="/" method="GET">
+            <br>
             <label for="email">Enter Email</label>
             <input type='email' name='email'>
             <input type="submit" value="Submit">
@@ -56,6 +48,5 @@
         </table>
     </div>
 </body>
-
 
 </html>
